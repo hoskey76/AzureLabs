@@ -9,9 +9,32 @@ In this task, you’ll create a virtual machine using the Azure portal.
 1. Open the browser from the taskbar and sign in to the [Azure portal](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true).  
 2. Select **Create a resource** > **Compute** > **Virtual Machine** > **Create**.  
 3. The **Create a virtual machine** pane opens to the **Basics** tab.  
-4. Verify or enter the required values for each setting. If a setting isn’t specified, leave the default value.  
-5. Select **Review + create**.  
-6. Select **Create**.
+4. Verify or enter the required values for each setting. If a setting isn’t specified, leave the default value.
+
+   (For any value listed as {User defined}, choose your own value.)
+
+   
+   | Setting | Value |
+   |:---:|:---:|
+   |Subscription|Your default Subscription|
+   |Resource Group|Create new resource group named {User Defined}|
+   |Virtual machine name|{User Defined}|
+   |Region|Leave default|
+   |Availability Options|Leave default|
+   |Security Type|Leave default|
+   |Image|Leave default|
+   |VM Architecture|Leave default|
+   |Run with Azure Spot Discount|Unchecked|
+   |Size|Leave default|
+   |Authentication type|Password|
+   |Username|{User Defined}|
+   |Password|{Enter a unique password}|
+   |Confirm Password|Reenter the unique password|
+   |Public inbound ports|None|
+   
+  
+6. Select **Review + create**.  
+7. Select **Create**.
 
 Wait while the VM is provisioned. Deployment is in progress will change to Deployment is complete when the VM is ready.
 
