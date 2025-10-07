@@ -1,7 +1,3 @@
-In this exercise, you’ll use the Azure portal to create a resource. The focus of the exercise is observing how Azure resource groups populate with created resources. 
-
-
-
 ### Task 1: Create a virtual machine
 
 In this task, you’ll create a virtual machine using the Azure portal.
