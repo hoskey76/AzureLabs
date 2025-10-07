@@ -1,3 +1,9 @@
+# Create an Azure Resource
+## Overview
+
+In this lab, you’ll use the Azure portal to create a resource. The main focus here is observing how Azure resource groups populate with created resources. 
+
+
 ## ⚠️ Cost & Resource Disclaimer  
 
 These labs and projects are designed with free or low-cost Azure resources whenever possible. If you attempt to replicate them in your own Azure environment, be aware that **some costs may be incurred depending on your configuration and resource choices**.  
