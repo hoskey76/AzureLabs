@@ -7,7 +7,7 @@ To verify the VM you created previously is still running, use the following comm
 	az vm list
 
 
-If you receive an empty response "[]", you need to complete the first exercise in this module again. If the result lists your current VM and its settings, you may continue.
+If you receive an empty response "[ ]", you need to complete the first exercise in this module again. If the result lists your current VM and its settings, you may continue.
 
 Right now, the VM you created and installed Nginx on isn't accessible from the internet. You'll create a network security group that changes that by allowing inbound HTTP access on port 80.
 
