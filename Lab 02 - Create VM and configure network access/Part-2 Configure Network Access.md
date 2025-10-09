@@ -42,7 +42,7 @@ In this procedure, you get the IP address for your VM and attempt to access your
 
     Copy the IP address that you see to the clipboard. Open a new browser tab and go to the IP address. After a few moments, you see that the connection isn't happening. ***Keep this browser tab open for later.***
 
-### Step 2 List the current network security group rules
+### Step 2: List the current network security group rules
 Your web server wasn't accessible. To find out why, let's examine your current NSG rules.
 
 1. Run the following az network nsg list command to list the network security groups that are associated with your VM:
@@ -81,7 +81,7 @@ Your web server wasn't accessible. To find out why, let's examine your current N
 
     By default, a Linux VM's NSG allows network access only on port 22. This enables administrators to access the system. You need to also allow inbound connections on port 80, which allows access over HTTP.
 
-### Step 3 Create the network security rule
+### Step 3: Create the network security rule
 
 Here, you create a network security rule that allows inbound access on port 80 (HTTP).
 
@@ -106,7 +106,7 @@ Replace <ResourceGroupName> with your resource group that you created earlier:
         default-allow-ssh  1000        22      Allow
         allow-http        100        80      Allow
 
-### Step 4 Access your web server again
+### Step 4: Access your web server again
 Now that you've configured network access to port 80, let's try to access the web server a second time.
 
 > [!NOTE]
