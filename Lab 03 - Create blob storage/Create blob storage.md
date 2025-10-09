@@ -47,7 +47,7 @@
 
 
 > [!IMPORTANT]
-> Step 4 will need an image. If you want to upload an image you already have on your computer, continue to Step 4. Otherwise, You may use the image located [**here**]() or search and download any image of your choosing.
+> Step 4 will need an image. If you want to upload an image you already have on your computer, continue to Step 4. Otherwise, You may use the image located [**here**](https://github.com/hoskey76/AzureLabs/blob/main/Lab%2003%20-%20Create%20blob%20storage/Blob%20Test%20File/blob_ferrari_image.jpg) or search and download any image of your choosing.
 
 
 4. Back in the **Azure portal**, select the container you created, then select **Upload**.
